@@ -4,10 +4,11 @@ ls
 git status
 git revert cid
 git commit -m "label name"
-git add
-git reset HEAD files name
-git reset --soft commit id
-git reset --mixed commit id
+
+
+
+
+
 git log -n
 git log --oneline
 git log --oneline -n
