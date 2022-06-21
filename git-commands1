@@ -1,0 +1,28 @@
+git 
+git log --oneline
+ls
+git status
+git revert cid
+git commit -m "label name"
+git add
+git reset HEAD files name
+git reset --soft commit id
+git reset --mixed commit id
+git log -n
+git log --oneline
+git log --oneline -n
+git log --author=name
+git log --author=name -n
+git log --author=name --oneline -n
+git log --until=yy-mm-dd
+git log --since=yy-mm-dd
+git log --after="yy-mm-dd hh:mm" --before="yy-mm-dd hh:mm"
+git branch
+git branch branch name
+git checkout branch name
+git cherry-pick cid
+git merge branch name
+git branch -d branch name
+git push origin -d branch name
+git push origin branch name
+git push path/of/c-rep branch name 
