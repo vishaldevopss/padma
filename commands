@@ -1,0 +1,36 @@
+package miniwebservice;
+
+import javax.jws.WebService;
+
+@WebService( endpointInterface="miniwebservice.HalloWelt" )
+public class HalloWeltImpl implements HalloWelt
+{
+   public String hallo( String wer )
+   {
+      return "Hallo " + wer;
+   }
+}
+
+
+package miniwebservice;
+
+import javax.jws.*;
+
+@WebService
+public interface HalloWelt
+{
+   public String hallo( @WebParam( name = "wer" ) String wer );
+}
+
+
+
+
+
+
+
+
+
+
+
+https://jar-download.com/artifacts/javax.jws
+
